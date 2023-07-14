@@ -26,3 +26,6 @@ async def main():
 
 # start the asyncio program
 asyncio.run(main())
+
+Fri Jul 14 08:53:29 2023 >task got 1.7872648696560907
+Fri Jul 14 08:53:30 2023 Gave up waiting, task canceled
