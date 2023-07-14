@@ -22,3 +22,17 @@ async def main():
 
 #start the asyncio program
 asyncio.run(main())
+
+
+Wed Jul 12 14:58:41 2023 main starting.
+Wed Jul 12 14:58:41 2023 task 0 executing
+Wed Jul 12 14:58:41 2023 task 1 executing
+Wed Jul 12 14:58:41 2023 task 2 executing
+Wed Jul 12 14:58:41 2023 task 3 executing
+Wed Jul 12 14:58:41 2023 task 4 executing
+Wed Jul 12 14:58:41 2023 task 5 executing
+Wed Jul 12 14:58:41 2023 task 6 executing
+Wed Jul 12 14:58:41 2023 task 7 executing
+Wed Jul 12 14:58:41 2023 task 8 executing
+Wed Jul 12 14:58:41 2023 task 9 executing
+Wed Jul 12 14:58:42 2023 main done
