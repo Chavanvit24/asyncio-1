@@ -42,3 +42,8 @@ async def main():
 
 #start the loop
 asyncio.run(main())
+
+Fri Jul 14 08:54:52 2023 canceled: True
+Fri Jul 14 08:54:52 2023 shielded was cancel
+Fri Jul 14 08:54:53 2023 shielded: <Future cancelled>
+Fri Jul 14 08:54:53 2023 task: <Task finished name='Task-2' coro=<simple_task() done, defined at c:\Asyncio-1\current-task-7.py:6> result=1>    
