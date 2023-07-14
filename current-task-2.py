@@ -28,3 +28,26 @@ async def main():
 
 # start the asyncio program
 asyncio.run(main())
+
+Wed Jul 12 14:36:35 2023 main coroutine started
+Wed Jul 12 14:36:35 2023 task 0 is running
+Wed Jul 12 14:36:35 2023 task 1 is running
+Wed Jul 12 14:36:35 2023 task 2 is running
+Wed Jul 12 14:36:35 2023 task 3 is running
+Wed Jul 12 14:36:35 2023 task 4 is running
+Wed Jul 12 14:36:35 2023 task 5 is running
+Wed Jul 12 14:36:35 2023 task 6 is running
+Wed Jul 12 14:36:35 2023 task 7 is running
+Wed Jul 12 14:36:35 2023 task 8 is running
+Wed Jul 12 14:36:35 2023 task 9 is running
+Wed Jul 12 14:36:35 2023 > Task-3, <coroutine object task_coroutine at 0x000001C263B85540>
+Wed Jul 12 14:36:35 2023 > Task-5, <coroutine object task_coroutine at 0x000001C263B85A80>
+Wed Jul 12 14:36:35 2023 > Task-7, <coroutine object task_coroutine at 0x000001C263B85C40>
+Wed Jul 12 14:36:35 2023 > Task-10, <coroutine object task_coroutine at 0x000001C263B85EE0>
+Wed Jul 12 14:36:35 2023 > Task-1, <coroutine object main at 0x000001C263B10040>
+Wed Jul 12 14:36:35 2023 > Task-8, <coroutine object task_coroutine at 0x000001C263B85D20>
+Wed Jul 12 14:36:35 2023 > Task-4, <coroutine object task_coroutine at 0x000001C263B859A0>
+Wed Jul 12 14:36:35 2023 > Task-11, <coroutine object task_coroutine at 0x000001C263B85FC0>
+Wed Jul 12 14:36:35 2023 > Task-2, <coroutine object task_coroutine at 0x000001C263B857E0>
+Wed Jul 12 14:36:35 2023 > Task-6, <coroutine object task_coroutine at 0x000001C263B85B60>
+Wed Jul 12 14:36:35 2023 > Task-9, <coroutine object task_coroutine at 0x000001C263B85E00>
