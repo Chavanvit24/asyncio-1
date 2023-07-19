@@ -1,0 +1,33 @@
+#example of an asynchronous iterator with async for loop
+import asyncio
+import time
+
+#define an asynchronous iterator
+class AsyncIterator():
+    # constructor, define some state
+    def init(self):
+        self.counter = 0
+
+    # create an instance of the iterator
+    def aiter(self):
+        return self
+
+#return the next awaitable
+    async def anext(self):
+        # check for no furture items
+        if self.couonter >= 10:
+            raise StopAsyncIterator
+        # increment the counter
+        self.counter += 1
+        # simulate work
+        await asyncio.sleep(1)
+        # return the counter value
+        return self.counter
+
+#main coroutine
+async def main():
+    #loop over async iterator with async for loop
+    async for item in AsyncIterator():
+        print(f'{time.ctime()} {item}')
+    #execute the asyncio program
+    asyncio.run(main())
